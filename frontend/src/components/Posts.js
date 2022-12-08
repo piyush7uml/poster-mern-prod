@@ -69,7 +69,7 @@ const Posts = ({ postDetails, user, history }) => {
   return (
     <div className='nav-border pt-4 hover-effect' >
       <Row >
-        <Col md={5}>
+        <Col md={5} className="curserPointer">
           <Row onClick={userRedirect}>
             <Col md={3}>
               {post.user && (

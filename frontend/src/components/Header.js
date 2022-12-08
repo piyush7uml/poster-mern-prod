@@ -198,7 +198,7 @@ const Header = ({ children, compAdd, history }) => {
                             </LinkContainer>
                           </NavDropdown>
 
-                          <Nav.Link as='h5' onClick={signOutHandler}>
+                          <Nav.Link as='h5' onClick={signOutHandler} className="curserPointer">
                             Sign Out
                       </Nav.Link>
                         </Nav>

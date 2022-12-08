@@ -67,7 +67,7 @@ const CommentComp = ({ commentProp, postId, history }) => {
     return (
         <div className='nav-border pt-4 hover-effect' >
             <Row>
-                <Col md={5}>
+                <Col md={5} className="curserPointer">
                     <Row>
                         <Col md={3}>
                             {Comment.user && (

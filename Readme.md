@@ -32,7 +32,7 @@
 
 ### **App Link**
 
-- App is live on:- https://poster-cjlq.onrender.com/home
+- App is live on:- https://poster-ziq3.onrender.com
 
 ---
 

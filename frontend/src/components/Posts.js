@@ -19,7 +19,7 @@ const Posts = ({ postDetails, user, history }) => {
 
   useEffect(() => {
     if (!socket.current) {
-      socket.current = io("https://poster-cjlq.onrender.com")
+      socket.current = io("https://poster-ziq3.onrender.com")
     }
     setPost(postDetails)
   }, [])

@@ -38,7 +38,7 @@ const CommentComp = ({ commentProp, postId, history }) => {
     useEffect(() => {
 
         if (!socket.current) {
-            socket.current = io("https://poster-cjlq.onrender.com")
+            socket.current = io("https://poster-ziq3.onrender.com")
         }
 
         setComment(commentProp)

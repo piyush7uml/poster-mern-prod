@@ -1,0 +1,112 @@
+.sidebar-sticky {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 6rem;
+  height: 40rem;
+  border: 1px solid black;
+}
+
+.body {
+  background-color: black;
+  color: white;
+ 
+}
+
+.wrapper {
+  width: 100%;
+  position: fixed;
+  z-index: 10;
+  background: inherit;
+}
+
+.bottom-wrapper {
+  width: 100%;
+  z-index: 5;
+  overflow: auto;
+}
+
+/* profile image */
+
+.image-profile {
+  display: block;
+  width: 10rem;
+  height: 10rem;
+  margin: 2rem auto;
+  margin-bottom: 1rem;
+  border: 3px solid black;
+}
+
+.grey-color {
+  color: #758283;
+}
+
+.post-btn {
+  display: inline-block;
+  width: 12rem;
+  height: 3rem;
+  color: white;
+  font-size: 1.5rem;
+  border-radius: 30px;
+  background-color: #383cc1;
+  border: none;
+  margin-top: 5rem;
+}
+
+.post-btn:hover {
+  background-color: #3944f7;
+}
+
+.posts-border {
+  border-left: 1px solid #242b2e;
+  border-right: 1px solid #242b2e;
+  border-bottom: 1px solid #242b2e;
+}
+
+.nav-border {
+  border-bottom: 2px solid #242b2e;
+}
+
+.last-card-item:last-child {
+  border-bottom: none;
+}
+
+.user-border {
+  border-top: 1px solid #242b2e;
+  border-bottom: 1px solid #242b2e;
+}
+
+.hover-effect:hover {
+  background-color: #080808;
+}
+
+
+.post-margin {
+  margin-left: 5rem;
+}
+
+.red-heart {
+  color:red;
+  font-size: 1.2rem
+  }
+
+  .gray-bookmark {
+    color: #758283;
+    font-size: 1.2rem
+    }
+
+
+    .button {
+      display: inline-block;
+      width: 5rem;
+      height: 2rem;
+      background-color: #3498db;
+      border: none;
+      color:white;
+      border-radius: 5px;
+    }
+
+
+
+    .curserPointer {
+      cursor: pointer;
+    }

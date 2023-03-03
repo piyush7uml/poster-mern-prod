@@ -11,28 +11,35 @@
 
 
 
-### **What did I learn from this Project?**
+## **Project Features**
 
- - Redux for State Management
+ - App captures all the basic features of twitter.
  - User Authentication
- - socket.io basics for like and follow operations
- - Image uplaoding
- - Adding date and time for posts
+ - Created user dashboard to add profile image, edit name & reset
+password.
+ - Implemented features like, who to follow suggestions, search users, showing timeline, liked and bookmarked tweets, also can add image to a tweet.
+
 
  
 
 ---
 
-### **Time Duration to Build the Project:-**
+### **Tech Used**
 
-- It took me around 15 days to Build the complete App. 
+- Bootstrap as CSS framework
+- ReactJs as Frontend Javascript Library
+- React Router for Routing Pages
+- Redux for State Management
+- ExpressJs as Backend Serverside Framework.
+- JSON Web Token to create and maintain Token for Authentication
+- Mongoose for Mongo DB as Database 
 
 ---
 
 
 ### **App Link**
 
-- App is live on:- https://poster-ziq3.onrender.com
+- App is live on:- https://poster-ziq3.onrender.com (may take couple of minutes for first load, then its breeze)
 
 ---
 
